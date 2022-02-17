@@ -50,6 +50,7 @@ public class MacysProject {
 		email1.sendKeys("multajim@gmail.com");
 		captcha.isSelected();
 		sendLink.click();
+		System.out.println("new update");
 		
 		Thread.sleep(2000);
 		driver.close();
